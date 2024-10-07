@@ -83,7 +83,12 @@ footer{
     text-align: center;
     margin-bottom: 30px;
 }
-@keyframes change{
+#hero.frame{
+    background-image:url(luxury.jpg);
+    animation: changeBg 12s infinite;
+}
+
+@keyframes changeBg{ 
     0%{
         background-image: url(Home-page/Luxury.jpg)
     }
@@ -93,7 +98,7 @@ footer{
     66%{
         background-image: url(Home-page/Mashion.jpg)
     }
-    88%{
+    100%{
         background-image: url(Home-page/Nice.jpg)
     }
 }
