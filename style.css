@@ -1,14 +1,15 @@
 body{
     background-color: rgba(0, 0, 0, 0.189);
     color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
     /* margin: 0; */
     /* padding: 0; */
     font-family: 'Times New Roman', Times, serif;
 }
 .top-image{
-    background-image: url(Home-page/Luxury.jpg);
+    background-image: url(Home-page/Fancy.jpg);
     background-position: center;
-    height: 800px;
+    height: 900px;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -20,34 +21,76 @@ body{
     padding: 10px;
     text-align: center;
 
+
 }
 .text-top{
     width: 50%;
+    font-size: x-large;
 }
-.buttons-hub{
-    display: flex;
-    width: auto;
-    /* work damn you */
-    /* align-content: space-between; */
-    /* yeah no idea why this wont work */
-}
-.button{
-    margin-top: 10px;
-    width: 200px;
-    height: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    /* justify-content: center; */
-    align-items: center;
+ 
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+ 
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
     text-align: center;
-    background-color: black;
-    align-items: flex-end;
-    flex-direction: row;
-    text-align: center;
-}
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ 
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+ 
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+ 
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(0, 0, 0);
+  }
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+ 
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+ 
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+ 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 
 h2{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 .img-and-text{
@@ -56,6 +99,7 @@ h2{
     width: 100%;
     /* margin-left: 50px; */
     margin-right: 50px;
+
 
 }
 img{
@@ -67,6 +111,7 @@ img{
     background-color: black;
     padding: 10px;
     border-radius: 10px;
+
 
 }
 .lil-section{
@@ -85,20 +130,26 @@ footer{
     margin-bottom: 30px;
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 
 :root {
     --bg-color-a: rgba(128, 102, 102, 0.8)
 }
 
+
 * {
     box-sizing: border-box;
 }
 
+
 img {
     max-width: 100%;
 
+
 }
+
 
 .source-sans-3 {
     font-family: "Source Sans 3", sans-serif;
@@ -108,14 +159,20 @@ img {
 }
 
 
+
+
 body {
     background-color: darkgray;
 }
-
+section h1{
+    margin-top: 60px;
+}
 .navbar {
     background-color: #333;
     padding: 10px;
+    align-content: space-between;
 }
+
 
 .nav-list {
     list-style-type: none;
@@ -125,9 +182,11 @@ body {
     /* Use flexbox for horizontal layout */
 }
 
+
 .nav-list li {
     margin-right: 20px;
 }
+
 
 .nav-list li a {
     color: white;
@@ -135,10 +194,14 @@ body {
     padding: 8px 16px;
 }
 
+
 .nav-list li a:hover {
     background-color: #575757;
     border-radius: 4px;
+    
 }
+
+
 
 
 #hero {
@@ -150,61 +213,6 @@ body {
     height: 40vh;
     background-repeat: no-repeat;
 }
-.fade-in-image { animation: fadeIn 5s; }
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  .fade-in-image {
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
-  }
-  
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-o-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-
-
-
-
-#hero.about {
-    background-image: url(Home-page/Fancy.jpg);
-}
-
-#hero.models {
-    background-image: url(Home-page/Mashion.jpg);
-
-}
-
-#hero.models2 {
-    background-image: url(Home-page/Nice.jpg);
-}
-
 .hero-content {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
@@ -217,10 +225,12 @@ body {
     font-style: normal;
 }
 
+
 .flex {
     display: flex;
     flex-flow: row wrap;
 }
+
 
 .bald {
     background-color: rgba(128, 102, 102, 0.8);
@@ -228,7 +238,9 @@ body {
     color: rgb(0, 0, 0);
     font-size: larger;
 
+
 }
+
 
 .image-right {
     width: 300px;
@@ -237,7 +249,7 @@ body {
     padding-top: 23px;
 }
 .re-one {
-   flex-wrap: wrap; 
+   flex-wrap: wrap;
    background-color: rgba(128, 102,102, 0.8);
     padding-left: 2%;
     /* text-orientation: upright; */
@@ -245,13 +257,15 @@ body {
     justify-content: center;
     /* height: 450px; */
     margin: 1em;
-    
+   
 }
+
 
 .re-two {
     background-color: rgba(128, 102,102, 0.8);
     padding-left: 2%;
     margin-top: 1em;
+
 
 }
 footer {
@@ -260,20 +274,22 @@ footer {
     color: rgb(0, 0, 0);
     padding: 30px;
     text-align: center;
-    list-style: none; 
+    list-style: none;
 }
 a {
     color:black;
     margin: 0 10px;
     text-decoration: none;
-    
+   
 }
+
 
 .no-bullets {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
 }
+
 
 #reviews {
     background-color: var(--bg-color-a);
@@ -282,17 +298,21 @@ a {
     flex-flow: row wrap;
 }
 
+
 section.section-head {
     width: 100%;
 }
+
 
 .half {
     width: 50%;
 }
 
+
 .content {
     padding: 1em;
 }
+
 
 .herbert {
     background-color: rgba(128, 102, 102, 0.8);
@@ -300,6 +320,7 @@ section.section-head {
     color: rgb(0, 0, 0);
     font-size: large;
 }
+
 
 .add {
     margin-right: 1em;
