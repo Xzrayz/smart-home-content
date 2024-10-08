@@ -150,44 +150,59 @@ body {
     height: 40vh;
     background-repeat: no-repeat;
 }
-
-#hero.home {
-    background-image: url(Home-page/Mashion.jpg);
-    animation: changeBg 12s infinite;
-}
-
-@keyframes changeBg {
-    0% {
-        background-image: url(Home-page/Mashion.jpg);
-    }
-
-    33% {
-        background-image: url(Home-page/Bonadelle.jpg);
-    }
-
-    66% {
-        background-image: url(Home-page/Luxury.jpg);
-    }
-
-    100% {
-        background-image: url(Home-page/Modern.jpg);
-    }
-}
+.fade-in-image { animation: fadeIn 5s; }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
 
 
 
 
 #hero.about {
-    background-image: url(Rural.png);
+    background-image: url(Home-page/Fancy.jpg);
 }
 
 #hero.models {
-    background-image: url(min.png);
+    background-image: url(Home-page/Mashion.jpg);
 
 }
 
 #hero.models2 {
-    background-image: url(Untitled-1.png);
+    background-image: url(Home-page/Nice.jpg);
 }
 
 .hero-content {
