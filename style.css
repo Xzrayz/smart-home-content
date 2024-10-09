@@ -7,7 +7,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 .top-image{
-    background-image: url(Home-page/Fancy.jpg);
+    background-image: url(Home-page/Blue\ wave.jpg);
     background-position: center;
     height: 900px;
     background-size: cover;
@@ -26,12 +26,20 @@ body{
     width: 50%;
     font-size: x-large;
 }
- 
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
   .navbar {
     overflow: hidden;
     background-color: #333;
   }
- 
+  
   .navbar a {
     float: left;
     font-size: 16px;
@@ -40,12 +48,12 @@ body{
     padding: 14px 16px;
     text-decoration: none;
   }
- 
+  
   .dropdown {
     float: left;
     overflow: hidden;
   }
- 
+  
   .dropdown .dropbtn {
     font-size: 16px;  
     border: none;
@@ -56,11 +64,11 @@ body{
     font-family: inherit;
     margin: 0;
   }
- 
+  
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(0, 0, 0);
+    background-color: red;
   }
- 
+  
   .dropdown-content {
     display: none;
     position: absolute;
@@ -69,7 +77,7 @@ body{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
- 
+  
   .dropdown-content a {
     float: none;
     color: black;
@@ -78,16 +86,14 @@ body{
     display: block;
     text-align: left;
   }
- 
+  
   .dropdown-content a:hover {
     background-color: #ddd;
   }
- 
+  
   .dropdown:hover .dropdown-content {
     display: block;
   }
-
-
 h2{
     font-size: 30px;
     text-align: center;
@@ -163,44 +169,6 @@ img {
 body {
     background-color: darkgray;
 }
-
-.navbar {
-    background-color: #333;
-    padding: 10px;
-    align-content: space-between;
-}
-
-
-.nav-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    /* Use flexbox for horizontal layout */
-}
-
-
-.nav-list li {
-    margin-right: 20px;
-}
-
-
-.nav-list li a {
-    color: white;
-    text-decoration: none;
-    padding: 8px 16px;
-}
-
-
-.nav-list li a:hover {
-    background-color: #575757;
-    border-radius: 4px;
-    
-}
-
-
-
-
 #hero {
     width: 100%;
     display: flex;
