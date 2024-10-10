@@ -9,7 +9,7 @@ body{
 .top-image{
     background-image: url(Home-page/Modern.jpg);
     background-position: center;
-    height: 900px;
+    height: 1200px;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@ body{
 }
 .text-top{
     width: 50%;
-    font-size: x-large;
+    font-size: 40px;
 }
 .top-left {
     position: absolute;
@@ -118,6 +118,7 @@ img{
     width: 100%;
     margin-top: 30px;
     background-color: rgba(7, 28, 46, 0.471);
+    color: white;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
@@ -185,50 +186,14 @@ img {
     flex-flow: row wrap;
 }
 
-
-.bald {
-    background-color: rgba(128, 102, 102, 0.8);
-    padding: 2.3em;
-    color: rgb(0, 0, 0);
-    font-size: larger;
-
-
-}
-
-
-.image-right {
-    width: 300px;
-    float: right;
-    padding-right: auto;
-    padding-top: 23px;
-}
-.re-one {
-   flex-wrap: wrap;
-   background-color: rgba(128, 102,102, 0.8);
-    padding-left: 2%;
-    /* text-orientation: upright; */
-    /* writing-mode: vertical-lr; */
-    justify-content: center;
-    /* height: 450px; */
-    margin: 1em;
-   
-}
-
-
-.re-two {
-    background-color: rgba(128, 102,102, 0.8);
-    padding-left: 2%;
-    margin-top: 1em;
-
-
-}
 footer {
     display: flex;
     background-color: rgba(128, 102,102, 0.8);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 30px;
-    text-align: center;
+    text-align: left;
     list-style: none;
+    font-size: x-large;
 }
 a {
     color:black;
@@ -271,7 +236,7 @@ section.section-head {
 .herbert {
     background-color: rgba(128, 102, 102, 0.8);
     padding: 2.0em;
-    color: rgb(0, 0, 0);
+    color: rgb(84, 52, 52);
     font-size: large;
 }
 
