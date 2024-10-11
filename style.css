@@ -1,13 +1,13 @@
 body{
-    background-color: rgba(0, 0, 0, 0.189);
-    color: rgba(255, 255, 255, 0.908);
+    background-color: rgba(0, 0, 0, 0.532);
+    color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     /* margin: 0; */
     /* padding: 0; */
     font-family: 'Times New Roman', Times, serif;
 }
 .top-image{
-    background-image: url(Home-page/Modern.jpg);
+    background-image: url(Home-page/Bedroom-Large/Bedroom-Large.mp4);
     background-position: center;
     height: 1200px;
     background-size: cover;
@@ -33,16 +33,19 @@ body{
 }
   .navbar {
     overflow: hidden;
-    background-color: #000000;
+    background-color: #28536C;
+    border-radius: 5%;
   }
   
   .navbar a {
     float: left;
     font-size: 30px;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 40%;
   }
   
   .dropdown {
@@ -56,13 +59,14 @@ body{
     outline: none;
     color: white;
     padding: 14px 16px;
-    background-color: inherit;
+    background-color: black;
     font-family: inherit;
     margin: 0;
+    border-radius: 40%;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(108, 108, 108);
   }
   
   .dropdown-content {
@@ -70,7 +74,7 @@ body{
     position: absolute;
     background-color: #000000;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(66, 66, 66, 0.2);
     z-index: 1;
   }
   
@@ -92,21 +96,37 @@ body{
   }
 h2{
     font-size: 30px;
-    text-align: center;
+    text-align: left;
 }
 .img-and-text{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: start;
     width: 100%;
     /* margin-left: 50px; */
     margin-right: 50px;
 
 }
+.img-and-text2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    width: 100%;
+    /* margin-left: 50px; */
+    margin-right: 50px;
+}
+.img-and-text p{
+    width: 30%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
 img{
     height: 300px;
     border-radius: 10px;
+    align-self: left;
 }
-.img-and-text p{
+.img-and-text2 p{
     width: 30%;
     background-color: black;
     padding: 10px;
@@ -118,7 +138,7 @@ img{
     width: 100%;
     margin-top: 30px;
     background-color: rgba(7, 28, 46, 0.471);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 10px;
     text-align: center;
@@ -188,7 +208,7 @@ img {
 
 footer {
     display: flex;
-    background-color: rgba(128, 102,102, 0.8);
+    background-color: #28536C;
     color: rgb(255, 255, 255);
     padding: 30px;
     text-align: left;
@@ -201,8 +221,6 @@ a {
     text-decoration: none;
    
 }
-
-
 .no-bullets {
     list-style-type: none;
     padding-left: 0;
