@@ -103,9 +103,14 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
   }
-h2{
-    font-size: 30px;
+h1{
+    font-size: 45px;
     text-align: left;
+    color: black;
+}
+h2{
+    font-size: 45px;
+    text-align: right;
     color: black;
 }
 .img-and-text{
@@ -115,6 +120,7 @@ h2{
     width: 100%;
     /* margin-left: 50px; */
     margin-right: 50px;
+    font-size: xx-large;
 
 }
 .img-and-text2{
@@ -124,6 +130,7 @@ h2{
     width: 100%;
     /* margin-left: 50px; */
     margin-right: 50px;
+    font-size: xx-large;
 }
 .img-and-text p{
     width: 30%;
@@ -154,11 +161,12 @@ img{
     text-align: center;
 }
 .lil-section h3{
-    font-size: 30px;
+    font-size: 40px;
 }
 footer{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    font-size: x-large;
 }
 
 
